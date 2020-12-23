@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
+## IDE Setup
+
+### Visual Studio Code
+
+The following `.code/settings.json` settings are recommended to auto-format
+and fix linting issues on save:
+
+```json
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "editor.rulers": [80]
+}
+```
+
 ## Component Libraries
 
 ### Ignite UI for Angular
@@ -11,6 +28,10 @@ Getting Started: <https://www.infragistics.com/products/ignite-ui-angular/angula
 - `ng add igniteui-angular`
   - Enable polyfill for IE, Edge and Safari?: `yes`
   - Add CSS library to reset HTML element styles accross browsers?: `yes`
+
+#### References
+
+- Documentation: <https://www.infragistics.com/products/ignite-ui-angular/angular/components/general/getting-started>
 
 ## Development server
 
