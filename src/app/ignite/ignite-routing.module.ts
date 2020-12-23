@@ -5,12 +5,12 @@ import { IgniteHomeComponent } from './ignite-home/ignite-home.component';
 const routes: Routes = [
   {
     path: '',
-    component: IgniteHomeComponent
-  }
+    component: IgniteHomeComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class IgniteRoutingModule { }
+export class IgniteRoutingModule {}

@@ -10,12 +10,13 @@ const routes: Routes = [
   },
   {
     path: 'ignite',
-    loadChildren: () => import('./ignite/ignite.module').then(m => m.IgniteModule)
-  }
+    loadChildren: () =>
+      import('./ignite/ignite.module').then((m) => m.IgniteModule),
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
