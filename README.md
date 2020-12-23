@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
+## Component Libraries
+
+### Ignite UI for Angular
+
+Getting Started: <https://www.infragistics.com/products/ignite-ui-angular/angular/components/general/getting-started>
+
+- `ng add igniteui-angular`
+  - Enable polyfill for IE, Edge and Safari?: `yes`
+  - Add CSS library to reset HTML element styles accross browsers?: `yes`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
